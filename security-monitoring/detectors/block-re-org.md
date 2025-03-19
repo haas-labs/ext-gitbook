@@ -6,5 +6,5 @@ description: Detecotr monitors Layer-1 / Layer-2 for blocks re-orgnizations
 
 Detector Configuration:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 

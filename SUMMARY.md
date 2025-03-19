@@ -28,6 +28,7 @@
   * [Price Monitor](compliance-monitoring/detectors/price-monitor.md)
   * [Github Monitor](compliance-monitoring/detectors/github-monitor.md)
   * [Proof Of Reserves Monitor](compliance-monitoring/detectors/proof-of-reserves-monitor.md)
+  * [Safe Multisig Monitor](compliance-monitoring/detectors/safe-multisig-monitor.md)
 * [Setup Detectors](compliance-monitoring/setup-detectors.md)
 
 ## Advanced monitoring

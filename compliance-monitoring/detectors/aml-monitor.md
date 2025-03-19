@@ -23,5 +23,5 @@ Upon AML address detection, alert will be generated with user-assigned `severity
 
 Alert example:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
