@@ -5,7 +5,7 @@ description: Monitors Gas price
 # Gas Monitor
 
 **Behavior**  
-*Price Avg* Average Price threshold in gwei. (Ex: >150.0)
+*Price Avg* Average Price threshold in gwei. (Ex: >150.0)  
 *Price Max* Max Price threshold in gwei. (Ex: >250.0)  
 *Price Min* Min Price threshold in gwei. (Ex: <1.0)
 
