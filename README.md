@@ -21,13 +21,19 @@ You have full control over the triggers and can customize them to meet your spec
 ## Quick setup
 
 1. Sign up in the app.
-2. Select how would you proceed with a setup: automatically or manually. \
-   \
-   &#xNAN;_&#x57;e recommend choosing automatically because you'll get personal monitoring recommendations based on your contract type._ \
-
+2. Create a project.
 3. Add an address.
 4. Select network.
-5. Configure triggers. For each trigger, you’ll get configuration instructions.
-6. Finally, set up your alert destinations, and you're all set!
 
-Once setup is complete, address monitoring is active, and you'll receive notifications if any of the conditions set up in the triggers are met.
+<iframe
+   width="700px"
+   height="400px"
+   src="https://youtu.be/1MST7LwkGFE"
+   title="Configure Entity Setup in Extractor Application"
+   frameborder="0"
+   referrerpolicy="unsafe-url"
+   allowfullscreen="true"
+   allow="clipboard-write"
+   sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin allow-presentation"
+   style="border-radius: 10px">
+</iframe>
