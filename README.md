@@ -23,6 +23,5 @@ You have full control over the triggers and can customize them to meet your spec
 1. Sign up in the app.
 2. Create a project.
 3. Add an address.
-4. Select network.
 
 {% embed url="https://youtu.be/1MST7LwkGFE" %}

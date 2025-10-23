@@ -1,8 +1,3 @@
 # Monitoring and Detection
 
-Extractor supports the following Monitoring Types:
-
-* Security Monitoring
-* Compliance Monitoring
-* Advanced Monitoring
-* Financial Monitoring
+https://youtu.be/mFlCdN8u5F8
