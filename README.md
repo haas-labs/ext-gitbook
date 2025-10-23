@@ -25,15 +25,4 @@ You have full control over the triggers and can customize them to meet your spec
 3. Add an address.
 4. Select network.
 
-<iframe
-   width="700px"
-   height="400px"
-   src="https://youtu.be/1MST7LwkGFE"
-   title="Configure Entity Setup in Extractor Application"
-   frameborder="0"
-   referrerpolicy="unsafe-url"
-   allowfullscreen="true"
-   allow="clipboard-write"
-   sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin allow-presentation"
-   style="border-radius: 10px">
-</iframe>
+{% embed url="https://youtu.be/1MST7LwkGFE" %}
