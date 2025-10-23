@@ -6,22 +6,27 @@ description: A catalog of networks that are supported by Hacken Extractor
 
 We currently support the following EVM-compatible networks for monitoring:
 
-* Ethereum Mainnet
-* Optimism
 * Binance Smart Chain (BSC)
+* Ethereum Mainnet
+* Arbitrum One
+* Optimism
 * Gnosis
 * Polygon Mainnet
+* Polygon Amoy
 * Fantom Opera
-* Arbitrum One
+* Avalanche
 * Linea
 * Base
 * Blast
 * zkSync
 * Scroll
-* Avalanche&#x20;
-* Stellar&#x20;
-* ICP
-* VeChain
 * Telos
-* Tron
 * Ethereum Sepolia
+* Ethereum Holesky
+* Tron
+* Somnia
+* ZetaChain
+* ICP
+* Stellar
+* VeChain
+* Bitcoin
