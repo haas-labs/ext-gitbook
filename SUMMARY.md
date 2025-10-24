@@ -25,7 +25,7 @@
   * [Wallet](security-monitoring/detectors/wallet.md)
   * [Block Re-Org](security-monitoring/detectors/block-re-org.md)
 
-  ## Advanced monitoring
+## Advanced monitoring
 
 * [Intro](advanced-monitoring/intro.md)
 * [Triggers](advanced-monitoring/triggers.md)
