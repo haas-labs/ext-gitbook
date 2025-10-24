@@ -3,14 +3,26 @@
 To activate Smart Contract Action you need to complete the following steps:
 
 1. [Create an action provider](action-providers/create-action-provider.md)
-2. Open the Address page in Extractor and go to the Actions page. Click on the Create Action button near the desired provider
-3. Select a previously created provider
-4. Configure the Action by filling in all provided fields. Additionally, the trigger or detector which will run this action can be connected. If you have not created triggers yet, [create one](../advanced-monitoring/triggers.md).&#x20;
-5. The estimated gas fee price will be automatically calculated or can be specified manually.
-6. Select the Notification channel if there is a need to receive notifications about the execution of Actions
-7. Click the Save Action button to deposit the required amount to cover gas fees.&#x20;
+2. Open Actions page
+    <figure><img src="../.gitbook/assets/create_action_1.png" alt=""><figcaption></figcaption></figure>
+3. Click on "Create Action" button
+    <figure><img src="../.gitbook/assets/create_action_2.png" alt=""><figcaption></figcaption></figure>
+4. Action setup
+    * Enter action name.
+    * Choose function you want to execute.
+    * Choose Trigger/Detector you want to run action.(optionaly, can be ran manually)
+    * Enter gas(optionaly).
+    * Click on "Create Action" button.
+        <figure><img src="../.gitbook/assets/create_action_3.png" alt=""><figcaption></figcaption></figure>
+5. Action created.
+    <figure><img src="../.gitbook/assets/create_action_4.png" alt=""><figcaption></figcaption></figure>
 
-Contract Action will be called automatically in response to a trigger and in case you have enough funds on the Action Provider balance to cover the transaction gas fee. You can also run action manually if you need - just click on the action menu and select Run Manually. Confirm action appeared in the pop-up.
-
-\
-\
+Contract Action will be called automatically in response to a trigger and in case you have enough funds on the Action Provider balance to cover the transaction gas fee. You can also run action manually if you need.
+1. Click on the action menu and select Run Manually.
+    <figure><img src="../.gitbook/assets/run_action_1.png" alt=""><figcaption></figcaption></figure>
+2. Action run
+    * Choose severity(optionaly, info by default).
+    * Enter alert message(optionaly, detector/trigger message by default).
+    * Enter gas(optionaly, market values by default).
+    * Click on "Run" button
+    <figure><img src="../.gitbook/assets/run_action_2.png" alt=""><figcaption></figcaption></figure>

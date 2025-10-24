@@ -2,10 +2,11 @@
 
 If you don't use the Smart Contract action feature anymore, you're able to withdraw all your funds from it. To do that make the following steps:
 
-1. Open Settings > Action Providers.
-2. Click on the Action Provider you want to withdraw funds from.
+1. Open Action Providers.
+    <figure><img src="../../.gitbook/assets/create_provider_1.png" alt=""><figcaption></figcaption></figure>
+2. Choose provider by clicking on it.
+    <figure><img src="../../.gitbook/assets/choose_provider.png" alt=""><figcaption></figcaption></figure>
 3. Click on Withdraw button.
-4. Follow the instructions: select the network you want to withdraw funds from and enter an address that uses the same standard (e.g. ERC20).&#x20;
-
-\
-\
+    <figure><img src="../../.gitbook/assets/withdraw_1.png" alt=""><figcaption></figcaption></figure>
+4. Enter address, amount, gas tip(optionaly) and click on "Withdraw" button.
+    <figure><img src="../../.gitbook/assets/withdraw_2.png" alt=""><figcaption></figcaption></figure>
