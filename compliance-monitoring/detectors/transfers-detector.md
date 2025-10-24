@@ -2,7 +2,7 @@
 description: Detector monitors anomalous transfers
 ---
 
-# Whales Detector
+# Transfers Detector
 
 Anomalies examples:
 

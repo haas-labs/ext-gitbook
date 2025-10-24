@@ -1,10 +1,11 @@
 ---
 description: >-
-  AML Detector monitors on-chain interaction with your Contract from addresses
-  and alerts if address is in AML lists
+  AML Monitor scans all transactions for blacklisted address origins.
 ---
 
 # AML Monitor
+
+**Behavior**
 
 ### AML List
 
@@ -14,14 +15,11 @@ Extractor supports the following address lists:
 * **Sanctions**
 * **Suspecious**
 
-Upon AML address detection, alert will be generated with user-assigned `severity` . Detailed information about AML address metadata will contain:
+Soon, AML Monitor will also scan the origin and destinations for critical events.
 
-* `source` (which dataset or provider metadata was extracted from)
-* `score`: address risk score from 0 to 100.0 (where 100.0 is the highest risk score)
-* `type_name`: address origin name
-* `owner`: address owner (from origin)
+**Use cases**
 
-Alert example:
-
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+* Detect transactions linked to sanctioned or criminal wallets.
+* Alert custodians on deposits from high-risk origins.
+* Support AML/CFT compliance for institutional digital asset firms.
 

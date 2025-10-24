@@ -1,9 +1,20 @@
 ---
 description: >-
-  TVL Detector monitors on-chain transaction and alerts about Total-Value-Locked
-  changes
+  Monitor Total Value Locked drops in native and ERC20 tokens with configurable thresholds to detect potential exploits or significant value movements.
 ---
 
 # TVL Monitor
 
-TVL configuration includes addresses of assets (e.g. Tokens) which compirse the TVL of the monitored contract.&#x20;
+**Behavior**  
+
+* Tracks balance changes between blocks for monitored addresses
+* Supports both percentage and absolute thresholds
+* Monitors native tokens and ERC20 tokens separately
+* Provides real-time alerts for significant TVL drops
+
+**Use cases**  
+
+* DeFi Protocol Security: Detect potential exploits or large withdrawals that could indicate security issues or market manipulation
+* Liquidity Pool Monitoring: Alert on significant liquidity removals that could impact trading and cause slippage
+* Risk Management: Monitor institutional or whale movements that could signal market sentiment changes
+
