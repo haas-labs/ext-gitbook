@@ -9,7 +9,7 @@ description: >-
 Track transfers from monitored Address list for assets movements (funelling/dispersal)
 
 *Address*  
-List of additiona addresses to track (comma separated). Monitored Address is always added by default
+List of additional addresses to track (comma separated). Monitored Address is always added by default
 
 *ID*  
 Track Identifier to group label address (e.g. bybit). Mandatory and must be unqiue for every tracker
@@ -18,9 +18,8 @@ Track Identifier to group label address (e.g. bybit). Mandatory and must be unqi
 Comma-separated list of tags to add to each detected address
 
 *Exclude*  
-Exclude addresses (with optional labels).
+Exclude addresses (with optional labels).  
 Format example:
-
 ```0xf1dA173228fcf015F43f3eA15aBBB51f0d8f1123, eXch```   
 
 *ATTENTION*: Each address should be on a new line (csv format)

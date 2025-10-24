@@ -5,9 +5,9 @@ description: Monitors blocks for Block anomalies.Anomalies includes transaction 
 # Block Anomaly
  
 **Behavior**  
-Transactions Count - Very small or very large transaction count in a block
-Events Count - Very large or very small events count
-Block size - Very small or very large block size
+Transactions Count - Very small or very large transaction count in a block  
+Events Count - Very large or very small events count  
+Block size - Very small or very large block size  
 Gas - Large and small Gas usage in block
 
 **Use cases**
