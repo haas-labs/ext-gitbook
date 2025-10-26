@@ -11,7 +11,7 @@
 * [Github Monitor](/compliance-monitoring/detectors/github-monitor.md)
 * [NIST Alerts Monitor](/compliance-monitoring/detectors/nist-alerts-monitor.md)
 * [Price Monitor](/compliance-monitoring/detectors/price-monitor.md)
-* [PoR Monitor](/compliance-monitoring/detectors/proof-of-reserves-monitor.md)
+<!-- * [PoR Monitor](/compliance-monitoring/detectors/proof-of-reserves-monitor.md) -->
 * [Safe Multisig Monitor](/compliance-monitoring/detectors/safe-multisig-monitor.md)
 * [Total Supply Monitor](/compliance-monitoring/detectors/total-supply-monitor.md)
 * [Transfer Monitor](/compliance-monitoring/detectors/transfer-monitor.md)

@@ -6,7 +6,7 @@
 * [Balance Monitor](/financial-monitoring/detectors/balance-monitor.md)
 * [Circulation Supply Monitor](/financial-monitoring/detectors/circulation-supply-monitor.md)
 * [Price Monitor](/financial-monitoring/detectors/price-monitor.md)
-* [PoR Monitor](/financial-monitoring/detectors/proof-of-reserves-monitor.md)
+<!-- * [PoR Monitor](/financial-monitoring/detectors/proof-of-reserves-monitor.md) -->
 * [Safe Multisig Monitor](/financial-monitoring/detectors/safe-multisig-monitor.md)
 * [Total Supply Monitor](/financial-monitoring/detectors/total-supply-monitor.md)
 * [Transfer Monitor](/financial-monitoring/detectors/transfer-monitor.md)

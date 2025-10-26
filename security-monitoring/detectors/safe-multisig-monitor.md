@@ -46,7 +46,7 @@ The monitor generates three types of events:
 
 
 **Detector Configuration**  
-*Name* - Enter a descriptive name for your monitor, for example: "Sage Multisig Monitor".
+*Name* - Enter a descriptive name for your monitor, for example: "Safe Multisig Monitor".
 <figure><img src="../../.gitbook/assets/safe_multisig_faq.png" alt=""><figcaption></figcaption></figure>
 
 **Alert example**
