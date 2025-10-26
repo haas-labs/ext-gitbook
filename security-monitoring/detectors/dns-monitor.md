@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/dns-monitor.md" %}
+[include](/multi-category-monitors/detectors/dns-monitor.md)

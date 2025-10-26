@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/contract-hash-verification.md" %}
+{% readfile "/multi-category-monitors/detectors/contract-hash-verification.md" %}
