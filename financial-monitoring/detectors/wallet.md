@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/wallet.md" %}
+{% include "/security-monitoring/detectors/wallet.md" %}

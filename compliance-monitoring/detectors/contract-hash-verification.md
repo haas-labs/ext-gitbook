@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/contract-hash-verification.md" %}
+{% include "/security-monitoring/detectors/contract-hash-verification.md" %}

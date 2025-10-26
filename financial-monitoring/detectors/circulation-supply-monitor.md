@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/circulation-supply-monitor.md" %}
+{% include "/compliance-monitoring/detectors/circulation-supply-monitor.md" %}

@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/balance-monitor.md" %}
+{% include "/compliance-monitoring/detectors/balance-monitor.md" %}

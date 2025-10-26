@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/safe-multisig-monitor.md" %}
+{% include "/security-monitoring/detectors/safe-multisig-monitor.md" %}

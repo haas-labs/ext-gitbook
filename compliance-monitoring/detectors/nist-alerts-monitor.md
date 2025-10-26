@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/nist-alerts-monitor.md" %}
+{% include "/security-monitoring/detectors/nist-alerts-monitor.md" %}

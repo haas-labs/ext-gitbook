@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/transfers-detector.md" %}
+{% include "/compliance-monitoring/detectors/transfers-detector.md" %}

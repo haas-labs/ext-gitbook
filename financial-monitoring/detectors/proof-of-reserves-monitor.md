@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/proof-of-reserves-monitor.md" %}
+{% include "/compliance-monitoring/detectors/proof-of-reserves-monitor.md" %}

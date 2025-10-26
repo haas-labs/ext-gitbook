@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/tvl-monitor.md" %}
+{% include "/compliance-monitoring/detectors/tvl-monitor.md" %}

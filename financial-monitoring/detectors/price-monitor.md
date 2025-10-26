@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/price-monitor.md" %}
+{% include "/compliance-monitoring/detectors/price-monitor.md" %}

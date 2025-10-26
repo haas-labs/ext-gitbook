@@ -1,1 +1,1 @@
-{% include "/multi-category-monitors/detectors/total-supply-monitor.md" %}
+{% include "/compliance-monitoring/detectors/total-supply-monitor.md" %}
