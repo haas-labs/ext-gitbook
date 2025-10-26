@@ -1,1 +1,1 @@
-{{% include "/security-monitoring/detectors/chainabuse-monitor.md" %}}
+{% include "/multi-category-monitors/detectors/chainabuse-monitor.md" %}

@@ -1,1 +1,1 @@
-{{% include "/security-monitoring/detectors/github-monitor.md" %}}
+{% include "/multi-category-monitors/detectors/github-monitor.md" %}
