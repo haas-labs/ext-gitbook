@@ -38,3 +38,13 @@ description: >-
 * Exchange & Custodian Compliance Monitoring - Centralized exchanges or custodians managing large user funds need to avoid sending assets to malicious look-alike addresses. The detector builds a real-time dataset of whale addresses and continuously cross-checks transactions/events for similarity-based poisoning attempts.
 
 * Ecosystem-Wide Threat Intelligence & Labeling - Protocols, analytics platforms, or regulators want to map and share poisoned address attempts across chains. The detector stores whale addresses in HaaS Labels DB (tagged as “whale”) and enriches them with metadata on poisoned address attempts.
+
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "Address Poison".
+2. *Past*
+3. *History*
+4. *Patterns*
+<figure><img src="../../.gitbook/assets/address_poison_faq.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/address_poison_alert.png" alt=""><figcaption></figcaption></figure>

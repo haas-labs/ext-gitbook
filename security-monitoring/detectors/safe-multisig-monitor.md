@@ -43,3 +43,11 @@ The monitor generates three types of events:
 * Transaction Hash Verification: The Safe Multisig Monitor ensures that the transaction data confirmed by all signers is consistent. For example, imagine a scenario where one signer’s interface is compromised and shows them a benign transaction, while the actual data being submitted to the Safe is different (malicious). The monitor computes the expected Safe transaction hash and compares it to the submitted hash. If they don’t match, a Safe Tx Hash Mismatch alert is generated. This warns the team that a potentially tampered or unintended transaction was caught, preventing it from being executed even if signers were tricked into confirming.
 
 * Signature Authenticity Check: When a Safe transaction is fully signed and ready to execute, the Safe Multisig Monitor validates each signature against the known signer addresses. If a signature doesn’t match the expected signer (for instance, if someone somehow forged a signature or a signer’s key was compromised), the monitor raises a Safe Multisig Signature Mismatch event. In practice, suppose a hacker tried to use a stolen private key to sign a transaction – the monitor would detect that the signature isn’t from a legitimate current signer and alert the team, who can then halt the transaction and investigate the breach.
+
+
+**Detector Configuration**  
+*Name* - Enter a descriptive name for your monitor, for example: "Sage Multisig Monitor".
+<figure><img src="../../.gitbook/assets/safe_multisig_faq.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/safe_multisig_alert.png" alt=""><figcaption></figcaption></figure>

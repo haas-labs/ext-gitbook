@@ -16,3 +16,19 @@ Gas - Large and small Gas usage in block
 * Exploit & Attack Detection - Certain exploits (e.g., MEV spam attacks, denial-of-service attacks, reorg attempts) generate blocks with extremely high transaction/event counts or inflated block sizes. The detector catches these anomalies immediately, correlating them with attack patterns (e.g., repeated reverts, flash-loan spam, or flood of small transfers).
 
 * Compliance & Forensics Auditing - Regulators, auditors, or compliance teams require visibility into abnormal block patterns that may indicate illicit activities (e.g., mixers, mass token distributions, laundering via event spam). The detector provides a structured log of block anomalies (e.g., spikes in event counts or gas usage), which can be cross-referenced with suspicious addresses and contracts.
+
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "Block Anomaly".
+2. *Transactions min/max*
+3. *Events min/max*
+4. *Block size min/max*
+5. *Gas min/max*
+6. *Gas min/max (Tx)*
+7. *Cron*
+8. *Track Latency*
+9. *Block Freq (min/max)* - Enter expected Block interval (msec).
+<figure><img src="../../.gitbook/assets/block_anomaly_faq_1.png.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/block_anomaly_faq_2.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/block_anomaly_alert.png" alt=""><figcaption></figcaption></figure>

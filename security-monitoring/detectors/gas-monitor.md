@@ -15,9 +15,18 @@ description: Monitors Gas price
 * Trading Bot Fee Optimization: optimize transaction timing. The bot’s operators define a maximum gas price (say 150 gwei); if the current gas exceeds this, the Gas Monitor event tells the bot to hold off on executing trades.
 
 * Network Congestion Safeguard: automatically safeguard users during extreme network congestion.
-<!-- * Changes to **Nameservers** records&#x20;
-* Changes in resolved **IP** addresses
-* Domain expiration -->
+
+
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "Gas Monitor".
+2. *Price Avg (gwei)*
+3. *Price Max (gwei)*
+4. *Price Min (gwei)*
+5. *Cron*
+<figure><img src="../../.gitbook/assets/gas_monitor_faq.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/gas_monitor_alert.png" alt=""><figcaption></figcaption></figure>
 
 
 

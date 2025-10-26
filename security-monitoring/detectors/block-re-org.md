@@ -14,7 +14,10 @@ Protocol Layer reorg is when blockchain found another blockchain tip candidate. 
 
 * Regulatory & Risk Oversight - Regulators or institutional investors require assurance that critical blockchain activity (e.g., settlement, stablecoin issuance) isn’t occurring on unstable forks. The detector logs and reports reorg events, creating an auditable trail of chain instability.
 
-<!-- Detector Configuration:
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "Block Reorg".
+2. *Reorg Depth* - Enter the minimum number of blocks that get reorganized to trigger an alert
+<figure><img src="../../.gitbook/assets/block_reorg_faq.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure> -->
-
+**Alert example**
+<figure><img src="../../.gitbook/assets/block_reorg_alert.png" alt=""><figcaption></figcaption></figure>

@@ -21,3 +21,6 @@ If a transaction to your monitored address includes internal calls from a suspic
 **Suspicious contract detected**
 
 When a new contract is created under dubious circumstances and involves addresses you monitor, you'll receive an alert. This ensures you're aware of new threats that may target your contracts directly.
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/attack_detector_alert.png" alt=""><figcaption></figcaption></figure>

@@ -14,3 +14,14 @@ Analyse and filter by LLM the malicious crypto activity to identify connection a
 * Updated CVE Follow-Up: The NIST Alerts Monitor also watches for updates to existing CVE records. If an older CVE entry is enriched with new data (e.g. higher severity or additional affected components), the monitor catches it and cross-references it with the client’s software inventory. 
 
 * DevSecOps Integration: A DevSecOps team includes the NIST Alerts Monitor in their CI/CD pipeline to continuously track emerging vulnerabilities relevant to their tech stack. Suppose a popular web framework or smart contract library used by the project gets a CVE entry – the monitor will alert developers and provide an LLM-generated summary of the risk.
+
+
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "NIST Alerts Monitor".
+2. *Score* - CVE score filter in range ```0``` to ```10```
+3. *Domain* - Regexp for ```description``` field match. If empty, any description will match. Expression example: ```'(?i).*keycloak.*```.
+4. *Cron*
+<figure><img src="../../.gitbook/assets/nist_monitor_faq.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/nist_monitor_alert.png" alt=""><figcaption></figcaption></figure>

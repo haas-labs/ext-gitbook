@@ -32,3 +32,19 @@ Track Native (e.g. ETH) transfer
 * High-Risk Address Monitoring: maintain a list of addresses suspected in money laundering or fraud schemes. Whenever those addresses send funds to any other address, the new addresses are flagged and tagged. This continuously expanding watchlist helps the compliance team identify the network of illicit actors and ensures any interaction with their platform by these addresses can be swiftly flagged or blocked.
 
 * Token Distribution Oversight: monitor the flow of tokens from known sources. As tokens move from addresses into the market, the detector labels the new holder addresses with tags indicating origin (e.g., “Investor Token Release – Q1”). This provides the team with real-time insight into where tokens are spreading. 
+
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "Tracker".
+2. *Track ID* - Enter Track Identifier to group label address (e.g. ```bybit```).
+3. *Tags list* - Enter comma separated list of tags to add to each detected address.
+4. *Addresses list* - List of original addresses to track (comma separated).
+5. *Track Native* - Choose whether you want an Track Native (ETH) transfer.
+6. *Track Native threshold*
+7. *Track ERC20* - Choose whether you want an Track Native ERC-20 transfer.
+8. *Track ERC20 threshold*
+9. *Cron* - Enter a cron expression to define the schedule.  
+  Cron expression in Quartz syntax, milliseconds value or seconds/minutes/hours/days interval (e.g. ```24 hours```)
+<figure><img src="../../.gitbook/assets/tracker_faq.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/tracker_alert.png" alt=""><figcaption></figcaption></figure>

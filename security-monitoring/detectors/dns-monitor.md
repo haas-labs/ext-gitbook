@@ -14,9 +14,17 @@ Start alerting about Domain expiration before Domain expiration date.
 * Operational Continuity & Domain Expiration Alerts - A project’s critical domain (API endpoint, wallet interface, or dApp front-end) is at risk of expiring because renewal was overlooked. The detector issues early warnings well before the expiration date.
 What is monitored
 
-<!-- * Changes to **Nameservers** records&#x20;
-* Changes in resolved **IP** addresses
-* Domain expiration -->
+**Detector Configuration**  
+1. *Name* - Enter a descriptive name for your monitor, for example: "DNS Monitor".
+2. *Cron*
+3. *Domain*
+4. *IP address(s)*
+5. *NS1/2/3/4*
+6. *Expiry Alert date*
+<figure><img src="../../.gitbook/assets/dns_monitor_faq.png" alt=""><figcaption></figcaption></figure>
+
+**Alert example**
+<figure><img src="../../.gitbook/assets/dns_monitor_alert.png" alt=""><figcaption></figcaption></figure>
 
 
 
