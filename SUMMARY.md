@@ -28,7 +28,16 @@
 ## Advanced monitoring
 
 * [Intro](advanced-monitoring/intro.md)
-* [Triggers](advanced-monitoring/triggers.md)
+<!-- * [Triggers](advanced-monitoring/triggers.md) -->
+* [Triggers](advanced-monitoring/triggers/README.md)
+  * [ERC20 Transfer](/advanced-monitoring/triggers/erc20-transfer.md)
+  * [Blacklisted Callers](/advanced-monitoring/triggers/blacklisted-callers.md)
+  * [Whitelisted Callers](/advanced-monitoring/triggers/whitelisted-callers.md)
+  * [Failed Transaction](/advanced-monitoring/triggers/failed-transaction.md)
+  * [Transaction Parameters](/advanced-monitoring/triggers/transaction-parameters.md)
+  * [Function Call](/advanced-monitoring/triggers/function-call.md)
+  * [Event Emitted](/advanced-monitoring/triggers/event-emitted.md)
+  * [Event Advanced](/advanced-monitoring/triggers/event-advanced.md)
 * [Recommendations by SC type](advanced-monitoring/recommendations-by-sc-type/README.md)
   * [Staking](advanced-monitoring/recommendations-by-sc-type/staking.md)
   * [Vesting](advanced-monitoring/recommendations-by-sc-type/vesting.md)
