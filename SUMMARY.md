@@ -85,6 +85,12 @@
   * [Bubblemap Detector](beta-features/detectors/balance-monitor.md)
   * [News Detector](beta-features/detectors/circulation-supply-monitor.md)
 
+## Beta Features
+
+* [Beta Features](beta-features-1/intro.md)
+* [Experimental Detectors](beta-features-1/detectors/README.md)
+  * [Bubblemap Detector](beta-features-1/detectors/balance-monitor.md)
+
 ## Smart Contract Actions
 
 * [Intro](smart-contract-actions/intro.md)

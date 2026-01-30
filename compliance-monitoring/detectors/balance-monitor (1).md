@@ -4,16 +4,26 @@ title: Balance Monitor
 
 **Functionality**
 
-* Monitors Address for Centralization / Concentration Risks
+* Tracks both native tokens and ERC20 tokens for monitored addresses
+* Updates balances in real-time on relevant transactions and Transfer events
+* Automatically adjusts to configuration changes without restarts
+* Sends alerts when balance ≤ threshold with severity-based notifications
 
+**Use cases**
 
+* DeFi Protocol Operations: Monitor liquidity pool addresses to ensure sufficient reserves for user withdrawals and prevent protocol insolvency
+* Bridge Security: Track bridge contract balances across chains to detect potential drain attempts or insufficient liquidity for cross-chain transfers
+* Treasury Management: Alert when DAO or project treasury balances drop below operational thresholds, preventing overspending or theft
 
-**Use cases:**
+**Detector Configuration**
 
-* Token / Asset Risk Score
-* Holders / Issuer Centralization Risks
-* Potential Fraud / Scam Asset owners behavior
+1. _Name_ - Enter a descriptive name for your monitor, for example: "Balance Monitor".
+2. _Threshold_
+3. _Decimals_
+4. _ERC20 Token_
 
+<figure><img src="../../.gitbook/assets/balance_monitor_faq.png" alt=""><figcaption></figcaption></figure>
 
+**Alert example**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto vom 2026-01-30 11-55-51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/balance_monitor_alert.png" alt=""><figcaption></figcaption></figure>
