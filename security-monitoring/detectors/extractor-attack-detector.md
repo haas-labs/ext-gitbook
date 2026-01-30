@@ -22,9 +22,11 @@ If a transaction to your monitored address includes internal calls from a suspic
 
 When a new contract is created under dubious circumstances and involves addresses you monitor, you'll receive an alert. This ensures you're aware of new threats that may target your contracts directly.
 
-**Detector Configuration**  
-*Name* - Enter a descriptive name for your monitor, for example: "Attack Detector".
+**Detector Configuration**\
+&#xNAN;_&#x4E;ame_ - Enter a descriptive name for your monitor, for example: "Attack Detector".
+
 <figure><img src="../../.gitbook/assets/attack_detector_faq.png" alt=""><figcaption></figcaption></figure>
 
 **Alert example**
+
 <figure><img src="../../.gitbook/assets/attack_detector_alert.png" alt=""><figcaption></figcaption></figure>

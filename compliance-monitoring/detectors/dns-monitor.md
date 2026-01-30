@@ -1,1 +1,3 @@
-{% include "/security-monitoring/detectors/dns-monitor.md" %}
+# DNS Monitor
+
+{% include "../../security-monitoring/detectors/dns-monitor (1).md" %}

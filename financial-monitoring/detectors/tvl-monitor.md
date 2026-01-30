@@ -1,1 +1,3 @@
-{% include "/compliance-monitoring/detectors/tvl-monitor.md" %}
+# TVL Monitor
+
+{% include "../../compliance-monitoring/detectors/tvl-monitor (1).md" %}

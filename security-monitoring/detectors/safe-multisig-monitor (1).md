@@ -1,11 +1,6 @@
 ---
-description: >-
-  The Safe Multisig Monitor is a detector that monitors the signers of a Safe
-  Multisig contract and alerts if a signer signes a tx data that differs from
-  the other signers.
+title: Safe Multisig Monitor
 ---
-
-# Safe Multisig Monitor
 
 **Behavior**\
 &#xNAN;_&#x57;hat is the Safe Multisig Monitor?_
