@@ -6,7 +6,7 @@ Detector monitors Coin centralization anomaly
 
 - Monitored Address must be a Coin.
 - Detector uses multiple sources to evaluate risk score.
-- Data inputs: [https://bubbblemaps.io](https://bubbblemaps.io)
+- Data inputs: [https://bubblemaps.io](https://bubblemaps.io)
 - Condition to filter Alerts score.
 - Track Coin Top holders number.
 - Track Score update time (can be calculated at different time).
