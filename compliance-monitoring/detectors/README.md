@@ -7,6 +7,7 @@
 * [Chainabuse Monitor](/compliance-monitoring/detectors/chainabuse-monitor.md)
 * [Circulation Supply Monitor](/compliance-monitoring/detectors/circulation-supply-monitor.md)
 * [Contract Hash Verification](/compliance-monitoring/detectors/contract-hash-verification.md)
+* [Contract Call](/detectors/Call/DetectorCall.md)
 * [DNS Monitor](/compliance-monitoring/detectors/dns-monitor.md)
 * [Github Monitor](/compliance-monitoring/detectors/github-monitor.md)
 * [NIST Alerts Monitor](/compliance-monitoring/detectors/nist-alerts-monitor.md)

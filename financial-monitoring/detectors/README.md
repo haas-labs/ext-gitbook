@@ -3,6 +3,7 @@
 ### Extractor Financial Monitoring Detectors Suite:&#x20;
 
 
+* [Call](/detectors/Call/DetectorCall.md)
 * [Balance Monitor](/financial-monitoring/detectors/balance-monitor.md)
 * [Circulation Supply Monitor](/financial-monitoring/detectors/circulation-supply-monitor.md)
 * [Price Monitor](/financial-monitoring/detectors/price-monitor.md)
