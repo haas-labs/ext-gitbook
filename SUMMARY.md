@@ -81,9 +81,10 @@
 
 ## Beta Features
 
-* [New and Beta Features](beta-features/detectors/README.md)
-  * [Bubblemap Detector](beta-features/detectors/bubblemap-detector.md)
-  * [News Detector](beta-features/detectors/news-detector.md)
+* [New and Beta Features](beta-features/README.md)
+  * [Bubblemap Detector](detectors/Bubblemaps/DetectorBubblemaps.md)
+  * [News Detector](detectors/News/DetectorNews.md)
+  * [Contract Call Detector](detectors/Call/DetectorCall.md)
 
 ## Smart Contract Actions
 
