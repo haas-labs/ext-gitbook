@@ -1,28 +1,17 @@
 # Detectors
 
-### Extractor Financial Monitoring Detectors Suite:&#x20;
+### Extractor Financial Monitoring Detectors Suite:
 
-
-* [Call](/detectors/Call/DetectorCall.md)
-* [Balance Monitor](/financial-monitoring/detectors/balance-monitor.md)
-* [Circulation Supply Monitor](/financial-monitoring/detectors/circulation-supply-monitor.md)
-* [Price Monitor](/financial-monitoring/detectors/price-monitor.md)
-<!-- * [PoR Monitor](/financial-monitoring/detectors/proof-of-reserves-monitor.md) -->
-* [Safe Multisig Monitor](/financial-monitoring/detectors/safe-multisig-monitor.md)
-* [Total Supply Monitor](/financial-monitoring/detectors/total-supply-monitor.md)
-* [Transfer Monitor](/financial-monitoring/detectors/transfer-monitor.md)
-* [Transfers Detector](/financial-monitoring/detectors/transfers-detector.md)
-* [TVL Monitor](/financial-monitoring/detectors/tvl-monitor.md)
-* [Wallet](/financial-monitoring/detectors/wallet.md)
-
-
-
-
-
-
+* [Call](../../detectors/Call/DetectorCall.md)
+* [Balance Monitor](balance-monitor.md)
+* [Circulation Supply Monitor](circulation-supply-monitor.md)
+* [Price Monitor](price-monitor.md)
+* [Safe Multisig Monitor](safe-multisig-monitor.md)
+* [Total Supply Monitor](total-supply-monitor.md)
+* [Transfer Monitor](transfer-monitor.md)
+* [Transfers Detector](transfers-detector.md)
+* [TVL Monitor](tvl-monitor.md)
+* [Wallet](wallet.md)
 
 ##
 
-##
-
-##
