@@ -17,4 +17,5 @@
 * [Transfer Monitor](transfer-monitor.md)
 * [Transfers Detector](transfers-detector.md)
 * [TVL Monitor](tvl-monitor.md)
+* [Chainlink ACE Monitor](../../detectors/ChainlinkACE/DetectorChainlinkACE.md)
 

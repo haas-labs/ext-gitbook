@@ -19,4 +19,5 @@
 * [Wallet](wallet.md)
 * [Block Re-Org](block-re-org.md)
 * [Contract Call](../../detectors/Call/DetectorCall.md)
+* [Chainlink ACE Monitor](../../detectors/ChainlinkACE/DetectorChainlinkACE.md)
 
