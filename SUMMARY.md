@@ -85,6 +85,9 @@
   * [Bubblemap Detector](detectors/Bubblemaps/DetectorBubblemaps.md)
   * [News Detector](detectors/News/DetectorNews.md)
   * [Contract Call Detector](detectors/Call/DetectorCall.md)
+  * [Cron](detectors/Cron/DetectorCron.md)
+  * [Chinalink ACE Detector](detectors/ChainlinkACE/DetectorChainlinkACE.md)
+  * [Proof of Reserves](detectors/PoR/DetectorPoR.md)
 
 ## Smart Contract Actions
 
