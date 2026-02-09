@@ -7,3 +7,4 @@
 - [News](../detectors/News/DetectorNews.md)
 - [Contract Call](../detectors/News/DetectorCall.md)
 - [Cron](../detectors/Cron/DetectorCron.md)
+- [Chainlink ACE Monitor](../detectors/ChainlinkACE/DetectorChainlinkACE.md)
