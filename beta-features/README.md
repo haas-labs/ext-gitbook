@@ -6,3 +6,4 @@
 - [Bubblemaps](../detectors/Bubblemaps/DetectorBubblemaps.md)
 - [News](../detectors/News/DetectorNews.md)
 - [Contract Call](../detectors/News/DetectorCall.md)
+- [Cron](../detectors/Cron/DetectorCron.md)
