@@ -1,29 +1,27 @@
-# Contract Call Monitor
+# Contract Call
 
-Contract Call detector executes read-only calls to contract functions, extracts results, and evaluates conditions on a schedule or per block.
+Execute calls to a contract function (not a transaction), extract results, and check conditions.
 
 ## Functionality
 
-* Execute contract function calls (non-transactional) and extract results
-* Run scripts to evaluate results and generate alerts
-* Support cron or per-block execution modes
+- Calls a contract function on a schedule or per block.
+- Extracts results and runs optional scripts/conditions.
+- Emits alerts based on script output or errors.
 
-## Tags
+## Configuration
 
-* [Security Monitoring](../../security-monitoring/detectors/)
-* [Compliance Monitoring](../../compliance-monitoring/detectors/)
-* [Financial Monitoring](../../financial-monitoring/detectors/)
+![](../../.gitbook/assets/DetectorCall-Config.png)
 
-## Configuraiton
+NOTE: Screenshot should be max size 800px and clickable to expand to full size
 
-[![](../../.gitbook/assets/DetectorCall-Config.png)](DetectorCall-Config.png)
+- **Function**: Function to execute. It must be a full signature in the [foundry cast](https://getfoundry.sh/cast/reference/cast) format (e.g. `balanceOf(address)(uint256)`).
+- **Parameters**: Parameters to pass to the function. Parameters can be separated with spaces or new lines. Tuples must be enclosed in `()`, arrays in `[]`, and strings in `""`. Refer to the cast documentation for syntax.
+- **Script**: Script flow to execute on call result.
+- **When**: When to execute script: `block` (every block) or `cron` (at cron intervals).
+- **Cron**: Cron interval to execute.
+- **Description**: Description pattern. Metadata fields from Alert can be used as substitutions and must be enclosed in `{}` (e.g. `{func}: {result}`).
+- **Track Error**: Generate alerts on errors (in Contract Call or evaluation script).
+- **Always Error**: Alert on every error. If unchecked, only new unique errors will be alerted and duplicates omitted.
+- **Severity**: Alert severity level.
 
-* Function: Function signature in foundry cast format (e.g., `balanceOf(address)(uint256)`).
-* Parameters: Parameters passed to the function (space or newline separated). Tuples in `()`, arrays in `[]`, strings in `""`.
-* Scripts: Scripts to execute on call result. Script type options: regexp, filter, sq, jq, js, ai, regexp\_score, sq\_score, jq\_score.
-* When: Execution mode — `cron` or `block`.
-* Cron: Interval to execute (e.g., `10 min`).
-* Track Errors: Generate alerts on call/script errors.
-* Always Errors: Alert on every error (otherwise suppress duplicate errors).
-* Description: Alert description template using placeholders (e.g., `{func}: {result}{err}`).
-* Severity: Alert severity level.
+**Supported networks**: Ethereum, Ethereum Sepolia.
