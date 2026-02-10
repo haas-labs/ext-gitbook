@@ -86,7 +86,7 @@
   * [News Detector](detectors/News/DetectorNews.md)
   * [Contract Call Monitor](detectors/Call/DetectorCall.md)
   * [Cron](detectors/Cron/DetectorCron.md)
-  * [Chinalink ACE Detector](detectors/ChainlinkACE/DetectorChainlinkACE.md)
+  * [Chainlink ACE Detector](detectors/ChainlinkACE/DetectorChainlinkACE.md)
   * [Proof of Reserves Monitor](detectors/PoR/DetectorPoR.md)
 
 ## Smart Contract Actions
