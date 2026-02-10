@@ -3,6 +3,7 @@
 * [🚀 Getting Started](README.md)
 * [⛓️ Supported Networks](supported-networks.md)
 * [Monitoring and Detection](monitoring-and-detection.md)
+* [Common Configurations](common-configurations.md)
 
 ## Security monitoring
 
