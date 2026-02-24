@@ -2,6 +2,7 @@
 
 ### Extractor Security Monitoring Detectors Suite:
 
+* [AML Detector](/security-monitoring/detectors/aml-detector.md)
 * [Extractor Attack Detector](extractor-attack-detector.md)
 * [Address Poison](address-poison.md)
 * [Chainabuse Monitor](../../compliance-monitoring/detectors/chainabuse-monitor.md)
