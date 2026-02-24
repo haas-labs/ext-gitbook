@@ -9,6 +9,7 @@
 
 * [Intro](security-monitoring/intro.md)
 * [Detectors](security-monitoring/detectors/README.md)
+  * [AML Detector](security-monitoring/detectors/aml-detector.md)
   * [Extractor Attack Detector](security-monitoring/detectors/extractor-attack-detector.md)
   * [Address Poison](security-monitoring/detectors/address-poison.md)
   * [Chainabuse Montior](security-monitoring/detectors/chainabuse-monitor.md)
