@@ -14,6 +14,7 @@
 * [Price Monitor](price-monitor.md)
 * [Safe Multisig Monitor](safe-multisig-monitor.md)
 * [Total Supply Monitor](total-supply-monitor.md)
+* [Total Supply Monitor By Allocations](total-supply-monitor-by-allocations.md)
 * [Transfer Monitor](transfer-monitor.md)
 * [Transfers Detector](transfers-detector.md)
 * [TVL Monitor](tvl-monitor.md)
