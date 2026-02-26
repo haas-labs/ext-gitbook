@@ -1,3 +1,3 @@
 # Balance Monitor
 
-{% include "../../compliance-monitoring/detectors/balance-monitor (1).md" %}
+{% include "../../compliance-monitoring/detectors/balance-monitor.md" %}
