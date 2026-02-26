@@ -1,3 +1,3 @@
 # Transfer Monitor
 
-{% include "../../compliance-monitoring/detectors/transfer-monitor (1).md" %}
+{% include "../../compliance-monitoring/detectors/transfer-monitor.md" %}
