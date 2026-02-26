@@ -1,3 +1,3 @@
 # Total Supply Monitor
 
-{% include "../../compliance-monitoring/detectors/total-supply-monitor (1).md" %}
+{% include "../../compliance-monitoring/detectors/total-supply-monitor.md" %}
