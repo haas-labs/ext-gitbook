@@ -53,6 +53,7 @@
 * [Intro](compliance-monitoring/intro.md)
 * [Detectors](compliance-monitoring/detectors/README.md)
   * [AML Monitor](compliance-monitoring/detectors/aml-monitor.md)
+  * [Aster DEX Monitor](compliance-monitoring/detectors/asterdex-monitor.md)
   * [Balance Monitor](compliance-monitoring/detectors/balance-monitor.md)
   * [Chainabuse Monitor](compliance-monitoring/detectors/chainabuse-monitor.md)
   * [Circulation Supply Monitor](compliance-monitoring/detectors/circulation-supply-monitor.md)
@@ -72,6 +73,7 @@
 
 * [Intro](financial-monitoring/intro.md)
 * [Detectors](financial-monitoring/detectors/README.md)
+  * [Aster DEX Monitor](financial-monitoring/detectors/asterdex-monitor.md)
   * [Balance Monitor](financial-monitoring/detectors/balance-monitor.md)
   * [Circulation Supply Monitor](financial-monitoring/detectors/circulation-supply-monitor.md)
   * [Price Monitor](financial-monitoring/detectors/price-monitor.md)

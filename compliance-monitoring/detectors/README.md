@@ -3,6 +3,7 @@
 ### Extractor Compliance Monitoring Detectors Suite:
 
 * [AML Monitor](aml-monitor.md)
+* [Aster DEX Monitor](asterdex-monitor.md)
 * [Balance Monitor](balance-monitor.md)
 * [Chainabuse Monitor](chainabuse-monitor.md)
 * [Circulation Supply Monitor](circulation-supply-monitor.md)
