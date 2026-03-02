@@ -1,3 +1,3 @@
 # Circulation Supply Monitor
 
-{% include "../../compliance-monitoring/detectors/circulation-supply-monitor (1).md" %}
+{% include "../../compliance-monitoring/detectors/circulation-supply-monitor.md" %}
