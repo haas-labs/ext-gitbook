@@ -3,7 +3,7 @@ title: Safe Multisig Monitor
 ---
 
 **Behavior**\
-&#xNAN;_&#x57;hat is the Safe Multisig Monitor?_
+_What is the Safe Multisig Monitor?_
 
 This is a monitoring service that tracks activities related to a Safe Multisig contract, including signer changes, transaction executions, and confirmation submissions.
 
